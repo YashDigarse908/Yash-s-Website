@@ -51,6 +51,59 @@ header {
 .navbar-right ul li a:hover {
   color: gray;
 }
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  font-weight: 500;
+  background-color: #e3d2c6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+  border-left: 10px;
+  border-color: black;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+
+
 #intro {
   display: flex;
   height: 60vh;
