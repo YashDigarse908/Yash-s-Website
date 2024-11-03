@@ -10,14 +10,19 @@
     <header>
       <nav class="navbar">
         <div class="navbar-left">
-          <h1>Yash Digarse<span>, Front-end Developer</span></h1>
+          <h1>Yash Digarse<span><br> Front-end Developer</span></h1>
         </div>
         <div class="navbar-right">
-          <ul>
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="project.html">Projects</a></li>
-          </ul>
+          <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            >&#9776;
+          </span>
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a>
+          <a href="main.html">About Me</a>
+          <a href="resume.html">Resume</a>
+          <a href="project.html">Projects</a></li>
         </div>
       </nav>
     </header>
